@@ -1,0 +1,19 @@
+@import '_Test';
+$main_font:"Intel";
+$main_bg_color:#F4F6FC;
+$main_Color:#2E384D;
+
+@font-face{
+    font-family: "Regular";
+    src: url(../Webfonts/IntelClear_Regular.ttf);
+}
+
+body{
+    background-color: $main_bg_color;
+    color: $main_Color;
+    font-family: "Regular";
+    @include Flex();
+    p{
+        font-size: 60px;
+    }
+}
